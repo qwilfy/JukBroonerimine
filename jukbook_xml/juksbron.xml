@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inimesed>
+  <inimene id="1">
+    <nimi>Vadim</nimi>
+    <telefoninr>578378738</telefoninr>
+    <kellaaeg>12/12/2019</kellaaeg>
+    <teenus>Juuksur</teenus>
+    <makstud>Ei</makstud>
+  </inimene>
+  <inimene id="2">
+    <nimi>Andrew</nimi>
+    <telefoninr>578378738</telefoninr>
+    <kellaaeg>12/12/2019</kellaaeg>
+    <teenus>Juuksur</teenus>
+    <makstud>Jah</makstud>
+  </inimene>
+  <inimene id="3">
+    <nimi>Daniil</nimi>
+    <telefoninr>578378738</telefoninr>
+    <kellaaeg>12/12/2019</kellaaeg>
+    <teenus>Juuksur</teenus>
+    <makstud>Jah</makstud>
+  </inimene>
+  <inimene id="4">
+    <nimi>Artur</nimi>
+    <telefoninr>578378738</telefoninr>
+    <kellaaeg>12/12/2019</kellaaeg>
+    <teenus>Juuksur</teenus>
+    <makstud>Jah</makstud>
+  </inimene>
+</inimesed>
+<!--<paev>
+  <esmas></esmas>
+  <teisi></teisi>
+  <kolma></kolma>
+  <nelja></nelja>
+  <reede></reede>
+  <lau></lau>
+  <puh></puh>
+</paev>-->

@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "Juuksur broneerimine";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Juuksuri Broneerimine</title>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        .table_price {
+            border-collapse: collapse;
+        }
+
+            .table_price td, .table_price th {
+                padding: 10px;
+            }
+
+            .table_price th {
+                text-align: left;
+                font-size: 18px;
+            }
+
+            .table_price tr:nth-child(2n) {
+                background: #E5E5E5;
+            }
+
+            .table_price a {
+                display: inline-block;
+                padding: 5px 10px;
+                background: #1f3d7a;
+                box-shadow: 2px 2px 0 0 #000099;
+                position: relative;
+            }
+
+                .table_price a:hover {
+                    box-shadow: none;
+                    top: 2px;
+                    left: 2px;
+                }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Vali teenus</h3>
+        <table class="table_price">
+            <tr class="header">
+                <th><p>Teenus</p></th>
+                <th><p>Kirjeldus</p></th>
+                <th><p>Kestvus</p></th>
+                <th><p>Hind(eur)</p></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            @foreach (var b in ViewBag.Teenused)
+            {
+        <tr>
+            <td><p>@b.MisTeenus</p></td>
+            <td><p>@b.Kirjeldus</p></td>
+            <td><p>@b.Kestvus</p></td>
+            <td><p>@b.Hind</p></td>
+            @if (Convert.ToInt32(Session["roleid"]) >= 1)
+            {
+                    <td><p><a href="/Home/Buy?Id=@b.Id&Teenus=@b.MisTeenus">Broneeri</a></p></td>
+                    }
+                    else
+                    {
+                    <td><p><a href="/Home/Login">Broneeri</a></p></td>
+                    }
+                    @if (Convert.ToInt32(Session["roleid"]) == 2)
+                    {
+                        <td><p>@Html.ActionLink("Edit", "EditIndex", new { id = b.Id })</p></td>
+                    }
+                    else
+                    {
+                        <td></td>
+                    }
+
+            </tr>
+
+            }
+        </table>
+        @if (Convert.ToInt32(Session["roleid"]) == 2)
+        {
+            @Html.ActionLink("Lisa uus", "AddIndex")
+        }
+        else
+        {
+
+        }
+    </div>
+</body>
+</html>

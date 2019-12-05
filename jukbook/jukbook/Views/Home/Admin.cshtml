@@ -1,0 +1,37 @@
+﻿
+@{
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin</title>
+    <style>
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <td><p>Klient</p></td>
+            <td><p>Kellaeg</p></td>
+            <td><p>Teenus</p></td>
+        </tr>
+        @foreach (var b in ViewBag.Brooneringud)
+        {
+    <tr>
+        <td><p>@b.Nimi</p></td>
+        <td><p>@b.Kellaeg</p></td>
+        <td><p>@b.Teenus</p></td>
+        <td><p>@Html.ActionLink("Delete", "AdminDelete", new { id = b.BroonId })</p></td>
+        <td><p>@Html.ActionLink("Meeldetuletus", "EmailRequestAdmin", new { id = b.BroonId })</p></td>
+    </tr>
+        }
+    </table>
+</body>
+</html>

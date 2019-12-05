@@ -1,0 +1,47 @@
+﻿
+@{
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin</title>
+    <style>
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Teie broneerimised</h2>
+    <table>
+        <tr class="header">
+            <td><p>Nimi</p></td>
+            <td><p>Kellaeg</p></td>
+            <td><p>Teenus</p></td>
+        </tr>
+        @foreach (var b in ViewBag.Brooneringud)
+        {
+    <tr>
+        @if (Convert.ToInt32(Session["userId"]) == b.TblUsersID)
+        {
+            <td><p>@b.Nimi</p></td>
+            <td><p>@b.Kellaeg</p></td>
+            <td><p>@b.Teenus</p></td>
+            if (b.Kellaeg <= DateTime.Today.AddDays(+1))
+            {
+                <td><p></p></td>
+            }
+            else
+            {
+                <td><p>@Html.ActionLink("Kustuda", "userBronDelete", new { id = b.BroonId })</p></td>
+                <td><p>@Html.ActionLink("Meeldetuletus", "EmailRequest", new { id = b.BroonId })</p></td>
+            }
+        }
+    </tr>
+        }
+
+    </table>
+</body>
+</html>

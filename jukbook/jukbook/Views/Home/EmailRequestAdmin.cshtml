@@ -1,0 +1,24 @@
+﻿@model jukbook.Models.Broon
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h2>Meeldetuletus</h2>
+    <form method="post" action="~/Home/ProcessRequestAdmin">
+        <div>
+            Kliendi email:
+            <input type="text" class="form-control" readonly="readonly" name="customerEmail" value="@Html.DisplayFor(model => model.Email)"/>
+        </div>
+
+        <div>
+            <input type="hidden" name="customerRequest" value="@Html.DisplayFor(model => model.Teenus)" />
+            <input type="hidden" name="customerRequest2" value="@Html.DisplayFor(model => model.Kellaeg)" />
+        </div>
+
+        <div>
+            <input class="btn btn-primary" type="submit" value="Submit" />
+        </div>
+    </form>
+</body>
+</html>

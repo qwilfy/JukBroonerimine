@@ -1,0 +1,30 @@
+﻿@model jukbook.Models.Broon
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h2>Meeldetuletus</h2>
+    <form method="post" action="~/Home/ProcessRequest">
+        <div>
+            Teie nimi:
+            <input type="text" class="form-control" readonly="readonly" name="customerName" value="@Session["Name"]"/>
+        </div>
+
+        <div>
+            Kirjutage oma eelistused:
+            <textarea name="customerRequest2" class="form-control rounded-0"/>
+            <input type="hidden" name="customerEmail" value="qwilfy@gmail.com" />
+        </div>
+
+        <div>
+            <input type="hidden" name="customerRequest" value="@Html.DisplayFor(model => model.Teenus)" />
+            <input type="hidden" name="customerRequest2" value="@Html.DisplayFor(model => model.Kellaeg)" />
+        </div>
+
+        <div>
+            <input class="btn btn-primary" type="submit" value="Submit" />
+        </div>
+    </form>
+</body>
+</html>
