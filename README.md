@@ -55,7 +55,7 @@ XML-файл должен содержать:
 <li>Изменение данных в таблице</li>
 Отображение данных в виде таблицы HTML с использованием различных функций в XSLT и PHP
 XML-файл содержит:
-<li>telefoninr<li>
+<li>telefoninr</li>
 <li>nimi</li>
 <li>kellaaeg</li>
 <li>teenus</li>
@@ -88,16 +88,16 @@ XML-файл содержит:
 <h2>Задание 2.</h2>
 
 <a href="https://ibb.co/c6bKYrw"><img src="https://i.ibb.co/5rYXKRk/1.png" alt="1" border="0"></a>
-Рисунок 1 Главная страница
+<h5>Рисунок 1 Главная страница</h5>
 
 <a href="https://ibb.co/5nPY0yD"><img src="https://i.ibb.co/Br94pxD/2.png" alt="2" border="0"></a>
-Рисунок 2 Страница входа
+<h5>Рисунок 2 Страница входа</h5>
 
 <a href="https://ibb.co/RH8G4tm"><img src="https://i.ibb.co/C0Lps4Z/3.png" alt="3" border="0"></a>
-Рисунок 3 Страница регистрации
+<h5>Рисунок 3 Страница регистрации</h5>
 
 <a href="https://ibb.co/Jv38nzk"><img src="https://i.ibb.co/gS4QyDg/4.png" alt="4" border="0"></a>
-Рисунок 4 Страница с бронированиями пользователя
+<h5>Рисунок 4 Страница с бронированиями пользователя</h5>
 
 <a href="https://ibb.co/g3VVg0J"><img src="https://i.ibb.co/R9yyHXc/5.png" alt="5" border="0"></a>
 <h5>Рисунок 5 Панель администратора</h5>
