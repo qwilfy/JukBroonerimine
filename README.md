@@ -115,3 +115,6 @@ XML-файл содержит:
 
 <a href="https://ibb.co/g3VVg0J"><img src="https://i.ibb.co/R9yyHXc/5.png" alt="5" border="0"></a>
 <h5>Рисунок 5 Панель администратора</h5>
+
+<a href="https://ibb.co/NFGMGx5"><img src="https://i.ibb.co/tH191Bg/H-iva.png" alt="H-iva" border="0"></a>
+<h5>Рисунок 6 Напоминание для юзера</h5>
