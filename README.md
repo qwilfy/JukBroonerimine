@@ -103,22 +103,22 @@ XML-файл содержит:
 <h2>Задание 2(Фото отчёт).</h2>
 
 <a href="https://ibb.co/c6bKYrw"><img src="https://i.ibb.co/5rYXKRk/1.png" alt="1" border="0"></a>
-<h5>Рисунок 1 Главная страница</h5>
+<h5>Рисунок 1 Главная страница с таблицой услуг</h5>
 
 <a href="https://ibb.co/5nPY0yD"><img src="https://i.ibb.co/Br94pxD/2.png" alt="2" border="0"></a>
-<h5>Рисунок 2 Страница входа</h5>
+<h5>Рисунок 2 Страница входа пользователя</h5>
 
 <a href="https://ibb.co/RH8G4tm"><img src="https://i.ibb.co/C0Lps4Z/3.png" alt="3" border="0"></a>
-<h5>Рисунок 3 Страница регистрации</h5>
+<h5>Рисунок 3 Страница регистрации пользователя</h5>
 
 <a href="https://ibb.co/Jv38nzk"><img src="https://i.ibb.co/gS4QyDg/4.png" alt="4" border="0"></a>
 <h5>Рисунок 4 Страница с бронированиями пользователя</h5>
 
 <a href="https://ibb.co/g3VVg0J"><img src="https://i.ibb.co/R9yyHXc/5.png" alt="5" border="0"></a>
-<h5>Рисунок 5 Панель администратора</h5>
+<h5>Рисунок 5 Панель администратора с активными бронированиями пользователя</h5>
 
 <a href="https://ibb.co/NFGMGx5"><img src="https://i.ibb.co/tH191Bg/H-iva.png" alt="H-iva" border="0"></a>
-<h5>Рисунок 6 Напоминание для юзера</h5>
+<h5>Рисунок 6 Напоминание для пользователя</h5>
 
 <a href="https://ibb.co/pPWt9mx"><img src="https://i.ibb.co/dcbdzhr/H-iva2.png" alt="H-iva2" border="0"></a>
 <h5>Рисунок 7 Оформление бронирования</h5>
