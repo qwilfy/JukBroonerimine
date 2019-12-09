@@ -118,3 +118,6 @@ XML-файл содержит:
 
 <a href="https://ibb.co/NFGMGx5"><img src="https://i.ibb.co/tH191Bg/H-iva.png" alt="H-iva" border="0"></a>
 <h5>Рисунок 6 Напоминание для юзера</h5>
+
+<a href="https://ibb.co/pPWt9mx"><img src="https://i.ibb.co/dcbdzhr/H-iva2.png" alt="H-iva2" border="0"></a>
+<h5>Рисунок 7 Оформление бронирования</h5>
